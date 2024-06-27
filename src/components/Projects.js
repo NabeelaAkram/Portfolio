@@ -36,7 +36,7 @@ function Project() {
                      <div className='relative mb-4'>
                         <img className='h-[400px] w-[500px]' src={project.image}/>
                         <div className='project-desc'>
-                            <p className="text-center px-5 py-5">{project.description}</p>
+                            <p className="text-center px-5 py-5 mt-12">{project.description}</p>
                             <div className='flex justify-center'>
                                 <a className='btn' target='_blank' href={project.link}>View Project</a>
                             </div>

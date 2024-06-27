@@ -1,10 +1,10 @@
-import MERN from "../assets/aboutme.svg"
+import MERN from "../assets/about.svg"
 function About(){
 
     return(
         <section id='about' className="flex flex-col md:flex-row bg-primary px-5 ">
             <div className="py-5 md:w-1/2 ml-5">
-            <div className="w-[500px] h-[500px]flex justify-center items-center ">
+            <div className="w-[400px] h-[400px] flex justify-center items-center  ">
             <img src={MERN} />
             </div>
                 </div>

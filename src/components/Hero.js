@@ -1,4 +1,4 @@
-import NABEE from "../assets/NABEE.jpeg"
+import NABEE from "../assets/profile.svg"
 import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Hero() {
     const config  = {
                 social: {
-            whatsapp: 'https://wa.me/8610013528',
+            
             github: 'https://github.com/NabeelaAkram',
             linkedin: 'https://www.linkedin.com/in/nabeela-a-4b697520a/'
         }
@@ -24,7 +24,7 @@ function Hero() {
             <div className="flex py-10">
                 <a href={config.social.github} className="pr-5 hover:text-white"  ><FaGithub size={35}></FaGithub></a>
     
-                <a href={config.social.whatsapp}className="pr-5  hover:text-white" ><RiWhatsappFill size={35}></RiWhatsappFill></a>
+               
                 <a href={config.social.linkedin} className="pr-5  hover:text-white" ><FaLinkedin size={35}></FaLinkedin></a>
             </div>
             <p className='pb-5'>You can view my resume <a className='btn' href="/resume.pdf" download='resume.pdf'> Download</a></p>

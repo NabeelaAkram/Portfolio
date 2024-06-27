@@ -1,13 +1,13 @@
-import html from '../assets/html.png';
-import css from '../assets/css.png'
-import tailwindcss from '../assets/tailwind css.png'
-import javascript from '../assets/JavaScript.png'
-import react from '../assets/react.jfif'
-import express from '../assets/express.png'
-import node from '../assets/node.png'
-import mongo from '../assets/mongo.png'
-import firebase from '../assets/firebase.png'
-import redux from '../assets/redux.jfif'
+import html from '../assets/html1.png';
+import css from '../assets/css1.png'
+import tailwindcss from '../assets/tailwindcss1.jfif'
+import javascript from '../assets/javascript1.png'
+import react from '../assets/react1.jpg'
+import express from '../assets/express1.png'
+import node from '../assets/node1.png'
+import mongo from '../assets/mongo1.png'
+import firebase from '../assets/firebase1.png'
+import redux from '../assets/redux1.jpg'
 export default function Skills () {
     return (
         <section id='skills' className="flex flex-col  py-20 px-5 justify-center items-center bg-primary text-white">
